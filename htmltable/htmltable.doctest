@@ -1,0 +1,5 @@
+>>> import htmltable
+>>> html = '<table><tr><td>1</td><td>2</td></tr><tr><td>3</td><td>4</td></tr></table>'
+>>> htmltable.loads(html) #doctest: +NORMALIZE_WHITESPACE
+[[1, 2],
+ [3, 4]]
